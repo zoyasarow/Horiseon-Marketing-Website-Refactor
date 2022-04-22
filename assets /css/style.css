@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* the below css was reorganized to reflect the order of the HTML code */
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* semantic element nav changed and reflected in below css */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* flex box attribute assigned to nav bar */
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+/* class renamed to specify element */
+.company-photo {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* content changed from class to element, no need to override content with class element */
+content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* class id's shortened and shared assigned attributes were consolidated from line 77-93 */
+#s-eng-opt, #onl-rep-m, #soc-med-m {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#s-eng-opt img, #onl-rep-m img, #soc-med-m img {
+    max-height: 200px;
+}
+
+#s-eng-opt, #onl-rep-m, #soc-med-m, h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* classes with the same attributes below were consolidated */
+#b-l #b-b #b-c {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+#b-l, #b-b, #b-c, h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#b-l img, #b-b img, #b-c img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* footer changed from class to element to consolidate, no need to override content with class element */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px; 
+}
