@@ -14,7 +14,7 @@ Below are the changes that were made on Horiseon Marketing's webpage in order to
      * CSS code was re-organized to match the order of HTML code (like h2 elements coming before h3)
      
      * CSS classes and elements were consolidated by how they shared the same attributes (this also included shortening class 
-     titles to share the same CSS block as sibling classes, as seen on lines 89, 98,102,119,124,130)
+     titles to share the same CSS block as sibling classes, as seen on lines 89,98,102,119,124,130)
      
      * Some HTML classes were changed to elements to consolidate CSS & increase HTML cleanliness 
      (.content class was changed to content, seen in CSS on line 82)
