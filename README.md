@@ -1,6 +1,8 @@
-# challenge-1
+# Horiseon Marketing Website Refactor 
 
 DU &amp; 2U Coding Bootcamp Challenge-1 
+
+Live Link: https://zoyasarow.github.io/challenge-1/
 
 Below are the changes that were made on Horiseon Marketing's webpage in order to improve it's overall acessibility & organization:
 
@@ -22,3 +24,5 @@ Below are the changes that were made on Horiseon Marketing's webpage in order to
      * HTML head title was renamed to reflect the function of the webpage 
      
      * A flex box property was created and applied to the Header & Nav Bar to increase acessibility 
+     
+![8b4849df9175f10e4fd972b6dc841127](https://user-images.githubusercontent.com/101853202/167539097-302a95b2-9a3d-40cf-b0b4-c4d93340e365.png)
