@@ -25,4 +25,4 @@ Below are the changes that were made on Horiseon Marketing's webpage in order to
      
      * A flex box property was created and applied to the Header & Nav Bar to increase acessibility 
      
-![zoyasarow-github-io-1124xFULLdesktop-9e1627](https://user-images.githubusercontent.com/101853202/167539649-46f83cb7-b629-45a9-9639-4cf711377ce7.png)
+![screencapture-zoyasarow-github-io-challenge-1-2022-05-09-22_09_33](https://user-images.githubusercontent.com/101853202/167540938-13dfa250-38ac-4970-af8f-c3066eb2ff31.png)
